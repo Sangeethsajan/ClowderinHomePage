@@ -1146,12 +1146,21 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+#about{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+#about p,h3{
+  padding-top: 30px;
+  font-style: italic;
+}
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/hero.jpg");
   text-align: center;
   border-radius: 8px;
   position: relative;
@@ -1164,7 +1173,9 @@ section {
 .pricing .box .pull{
   color: #fff;
 }
-
+.pull{
+  font-family: 'Montserrat', sans-serif;
+}
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
